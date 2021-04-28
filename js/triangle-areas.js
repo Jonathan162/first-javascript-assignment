@@ -38,7 +38,6 @@ const triangleSix = (9.3 * 12.4) / 2;
 const triangleSixRounded = triangleSix.toFixed(2); //Can I do this in a more efficient way without 
 //creating a new const?
 
-
 console.log(`Triangle Five has an area of ${triangleFive} km2 and Triangle Six has an area of ${triangleSixRounded} km2.`);
 
 if (triangleFive > triangleSixRounded) {
